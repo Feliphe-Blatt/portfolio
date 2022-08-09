@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body {
+    max-width: 100%;
+    overflow-x: auto;
+    background-color: rgba(0, 0, 0, .8);
+}
+header {
+    position: fixed;
+    top: 0;
+    margin: auto;
+}
+
+#pinboard {
+    margin:2vh auto 2vh auto;
+    width: 96vw;
+    height: 96vh;
+    padding: 1vh;
+    background-image:
+        radial-gradient(transparent 10%, transparent 10%,rgb(0,0,0) 160%),
+        url("/assets/img/abcde.jpg");
+    background-size: cover;
+    background-position: left top;
+    border: 2vw solid transparent;
+    border-image-slice: 27 27 27 27;
+    border-image-width: 2vw;
+    border-image-outset: 0;
+    border-image-repeat: round round;
+    border-image-source: url("/assets/img/wooden-frame.jpg");
+    box-shadow: 0 0 1.5vw rgba(0, 0, 0, 1);
+    transition: all 100ms ease-in-out;
+}
+
+#infos {
+    display: flex;
+    justify-content: space-evenly;
+}
+#foto-perfil {
+    margin: 1vh;
+    height: 140px;
+    width: auto;
+    box-shadow: 0 0 1.5vh rgba(0, 0, 0, .9);
+}
+
+#descricao {
+    margin: auto .5vh;
+    height: 50%;
+    padding: 2vw;
+    opacity: .8;
+    border: solid .1vh rgba(0, 0, 0, .2);
+    background-color: rgba(0, 0, 0, .1);
+    text-shadow: 0 0 .4vh rgba(0, 0, 0, .7);
+    box-shadow: .2vw .1vh 1vh rgba(0, 0, 0, .7);
+    transition: all 200ms ease-in-out;
+}
+#descricao:hover {
+    box-shadow: .2vw .1vh 2vh rgba(0, 0, 0, 1);
+}
+#nome-completo {
+    font-size: 2.6vw;
+}
+#ocupacao {
+    margin: 1vh;
+    font-size: 2.2vw;
+}
+#lista-ocupacao {
+    margin: 1vh;
+    font-size: 2vw;
+}
+
+#curriculo {
+    height: 80%;
+    width: 18px;
+    background-color: rgba(0, 0, 0, .1);
+    box-shadow: .2vw .1vh 1vh rgba(0, 0, 0, .7);
+    border: solid .1vh rgba(0, 0, 0, .2);
+    transition: all 200ms ease-in-out;
+}
+#curriculo:hover {
+    box-shadow: .2vw .1vh 2vh rgba(0, 0, 0, 1);
+}
+#curriculo legend {
+    text-shadow: 0 0 .4vh rgba(0, 0, 0, .7);
+}
+#pdf-link {
+    margin: auto 1vh;
+}
+#pdf-icon {
+    padding: 1vh;
+    height: 100px;
+    width: auto;
+}
