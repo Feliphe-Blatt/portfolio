@@ -13,9 +13,9 @@ body {
 }
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 #pinboard {
+    display: list-item;
     overflow-x: auto;
-    margin: 2vh 1vh 2vh;
-    padding: 1% 0;
+    margin: 2vh 2vw 2vh;
     width: 96vw;
     max-width: 1200px;
     height: 96vh;
@@ -37,29 +37,17 @@ body {
 #infos {
     display: flex;
     justify-content: space-between;
-    padding: 0 1%;
 }
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-#frame-foto {
-    display: flex;
-    justify-content: top left;
-}
-.foto-pin {
-    position: relative;
-    top: 0;
-    left: -8vw;
-    height: 3vw;
-    background-image: radial-gradient(rgba(0,0,0,.5) 40%, transparent 76%, transparent 60%);
-}
 #foto-perfil {
-    margin: 1vh 0vh 1vh;
-    height: 4vh;
-    width: 4vw;
+    margin: 2vh 0 0 5vw;
+    max-height: 124px;
     box-shadow: 0vw 0vh 1.4vh rgba(0, 0, 0, 1);
 }
 
 #descricao {
-    height: 50%;
+    height: 22vw;
+    margin: 2vh 0 0 0;
     padding: 0vh 1vw 0vh 2vw;
     opacity: .84;
     border: solid .1vh rgba(0, 0, 0, .2);
@@ -75,7 +63,6 @@ body {
     font-size: 2.6vw;
 }
 #ocupacao {
-    margin: 1vh;
     font-size: 2.2vw;
 }
 #lista-ocupacao {
@@ -84,14 +71,12 @@ body {
 }
 
 #curriculo {
-    margin: 2vh 1vw;
-    padding: 1vw;
+    margin: 2vh 5vw 0 0;
+    padding: 0 1vh 1vh 1vw;
     display: flex;
     justify-content: center;
-    height: 10%;
-    width: 18vw;
+    height: 22vw;
     max-height: 300px;
-    max-width: 900px;
     background-color: rgba(0, 0, 0, .1);
     box-shadow: .2vw .1vh 1vh rgba(0, 0, 0, .7);
     border: solid .1vh rgba(0, 0, 0, .2);
@@ -110,4 +95,6 @@ body {
 #pdf-icon {
     height: auto;
     width: 10vw;
+    max-height: 200px;
+    max-width: 150px;
 }
