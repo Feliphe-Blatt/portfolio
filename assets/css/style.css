@@ -5,54 +5,63 @@
     scroll-behavior: smooth;
 }
 body {
+    display: flex;
+    justify-content: center;
     max-width: 100%;
     overflow-x: auto;
     background-color: rgba(0, 0, 0, .8);
 }
-header {
-    position: fixed;
-    top: 0;
-    margin: auto;
-}
-
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 #pinboard {
-    overflow: auto;
-    margin:2vh auto 2vh auto;
+    overflow-x: auto;
+    margin: 2vh 1vh 2vh;
+    padding: 1% 0;
     width: 96vw;
     max-width: 1200px;
     height: 96vh;
-    padding: 1vh;
     background-image:
         radial-gradient(transparent 10%, transparent 10%,rgb(0,0,0) 160%),
         url("../img/abcde.jpg");
     background-size: cover;
     background-position: left top;
-    border: 2vw solid transparent;
+    border: 2vh solid transparent;
     border-image-slice: 27 27 27 27;
-    border-image-width: 2vw;
+    border-image-width: 2vh;
     border-image-outset: 0;
     border-image-repeat: round round;
     border-image-source: url("../img/wooden-frame.jpg");
     box-shadow: 0 0 1.5vw rgba(0, 0, 0, 1);
     transition: all 100ms ease-in-out;
 }
-
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 #infos {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    padding: 0 1%;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+#frame-foto {
+    display: flex;
+    justify-content: top left;
+}
+.foto-pin {
+    position: relative;
+    top: 0;
+    left: -8vw;
+    height: 3vw;
+    background-image: radial-gradient(rgba(0,0,0,.5) 40%, transparent 76%, transparent 60%);
 }
 #foto-perfil {
-    margin: auto;
-    height: 140px;
-    width: auto;
+    margin: 1vh 0vh 1vh;
+    height: 4vh;
+    width: 4vw;
     box-shadow: 0vw 0vh 1.4vh rgba(0, 0, 0, 1);
 }
 
 #descricao {
-    margin: 2vh auto;
     height: 50%;
-    padding: 2vw;
-    opacity: .8;
+    padding: 0vh 1vw 0vh 2vw;
+    opacity: .84;
     border: solid .1vh rgba(0, 0, 0, .2);
     background-color: rgba(0, 0, 0, .1);
     text-shadow: 0 0 .4vh rgba(0, 0, 0, .7);
@@ -75,13 +84,14 @@ header {
 }
 
 #curriculo {
-    margin: auto;
+    margin: 2vh 1vw;
+    padding: 1vw;
     display: flex;
     justify-content: center;
-    height: auto;
+    height: 10%;
     width: 18vw;
-    max-height: 250px;
-    max-width: 250px;
+    max-height: 300px;
+    max-width: 900px;
     background-color: rgba(0, 0, 0, .1);
     box-shadow: .2vw .1vh 1vh rgba(0, 0, 0, .7);
     border: solid .1vh rgba(0, 0, 0, .2);
@@ -98,6 +108,6 @@ header {
     margin: 1vh 1vw;
 }
 #pdf-icon {
-    height: 13vh;
-    width: 10vh;
+    height: auto;
+    width: 10vw;
 }
