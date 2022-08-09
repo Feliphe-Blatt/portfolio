@@ -41,14 +41,14 @@ header {
     justify-content: space-evenly;
 }
 #foto-perfil {
-    margin: 1vh;
+    margin: auto;
     height: 140px;
     width: auto;
-    box-shadow: 0 0 1.5vh rgba(0, 0, 0, .9);
+    box-shadow: 0vw 0vh 1.4vh rgba(0, 0, 0, 1);
 }
 
 #descricao {
-    margin: auto .5vh;
+    margin: 2vh auto;
     height: 50%;
     padding: 2vw;
     opacity: .8;
@@ -74,8 +74,13 @@ header {
 }
 
 #curriculo {
-    height: 80%;
-    width: 18px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: 18vw;
+    max-height: 250px;
+    max-width: 250px;
     background-color: rgba(0, 0, 0, .1);
     box-shadow: .2vw .1vh 1vh rgba(0, 0, 0, .7);
     border: solid .1vh rgba(0, 0, 0, .2);
@@ -85,13 +90,13 @@ header {
     box-shadow: .2vw .1vh 2vh rgba(0, 0, 0, 1);
 }
 #curriculo legend {
-    text-shadow: 0 0 .4vh rgba(0, 0, 0, .7);
+    font-size: 2.5vw;
+    text-shadow: 0vw 0vh 1vh rgba(255, 255, 255, 0.4);
 }
 #pdf-link {
-    margin: auto 1vh;
+    margin: 1vh 1vw;
 }
 #pdf-icon {
-    padding: 1vh;
-    height: 100px;
-    width: auto;
+    height: 13vh;
+    width: 10vh;
 }
