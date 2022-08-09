@@ -49,11 +49,11 @@ body {
     height: 22vw;
     margin: 2vh 0 0 0;
     padding: 0vh 1vw 0vh 2vw;
-    opacity: .84;
+    opacity: 0.84;
+    background-color: rgba(0, 0, 0, 0.2);
+    text-shadow: 0 0 .4vh rgba(0, 0, 0, 0.7);
+    box-shadow: .2vw .1vh 1vh rgba(0, 0, 0, 0.7);
     border: solid .1vh rgba(0, 0, 0, .2);
-    background-color: rgba(0, 0, 0, .2);
-    text-shadow: 0 0 .4vh rgba(0, 0, 0, .7);
-    box-shadow: .2vw .1vh 1vh rgba(0, 0, 0, .7);
     transition: all 200ms ease-in-out;
 }
 #descricao:hover {
@@ -77,8 +77,8 @@ body {
     justify-content: center;
     height: 22vw;
     max-height: 300px;
-    background-color: rgba(0, 0, 0, .2);
-    box-shadow: .2vw .1vh 1vh rgba(0, 0, 0, .7);
+    background-color: rgba(0, 0, 0, 0.2);
+    box-shadow: .2vw .1vh 1vh rgba(0, 0, 0, 0.7);
     border: solid .1vh rgba(0, 0, 0, .2);
     transition: all 200ms ease-in-out;
 }
