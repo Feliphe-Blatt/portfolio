@@ -9,11 +9,13 @@ body {
     justify-content: center;
     max-width: 100%;
     overflow-x: auto;
-    background-color: rgba(0, 0, 0, .8);
+    background-color: rgba(0, 0, 0, .6);
 }
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 #pinboard {
     display: list-item;
+    align-items: center;
+    justify-content: center;
     overflow-x: auto;
     margin: 2vh 2vw 2vh;
     width: 96vw;
@@ -37,17 +39,22 @@ body {
 #infos {
     display: flex;
     justify-content: space-between;
+    padding: .5vh;
 }
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 #foto-perfil {
-    margin: 2vh 0 0 5vw;
+    margin: auto;
     max-height: 124px;
-    box-shadow: 0vw 0vh 1.4vh rgba(0, 0, 0, 1);
+    box-shadow: .2vw .1vh 1vh rgba(0, 0, 0, .7);
+    transition: all 200ms ease-in-out;
 }
-
+#foto-perfil:hover {
+    box-shadow: .2vw .1vh 2vh rgba(0, 0, 0, 1);
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 #descricao {
     height: 22vw;
-    margin: 2vh 0 0 0;
+    margin: auto;
     padding: 0vh 1vw 0vh 2vw;
     opacity: 0.84;
     background-color: rgba(0, 0, 0, 0.2);
@@ -62,16 +69,17 @@ body {
 #nome-completo {
     font-size: 2.6vw;
 }
-#ocupacao {
-    font-size: 2.2vw;
+#programador {
+    margin-top: 1vh;
+    font-size: 2.1vw;
 }
-#lista-ocupacao {
+#lista-programador {
     margin: 1vh;
     font-size: 2vw;
 }
-
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 #curriculo {
-    margin: 2vh 5vw 0 0;
+    margin: auto;
     padding: 0 1vh 1vh 1vw;
     display: flex;
     justify-content: center;
@@ -97,4 +105,59 @@ body {
     width: 10vw;
     max-height: 200px;
     max-width: 150px;
+    opacity: .6;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+#sites {
+    display: list-item;
+    justify-content: space-evenly;
+    padding: 3vh;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+#legenda-links {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    padding: 1vh;
+    background-color: rgba(0, 0, 0, 0.2);
+    text-shadow: 0 0 .4vh rgba(0, 0, 0, 0.7);
+    border: solid .1vh rgba(0, 0, 0, .2);
+    box-shadow: .2vw .1vh 1vh rgba(0, 0, 0, 0.7);
+    transition: all 200ms ease-in-out;
+}
+#legenda-links legend {
+    text-shadow: 0vw 0vh 1vh rgba(255, 255, 255, 0.4);
+}
+#legenda-links:hover {
+    box-shadow: .2vw .1vh 2vh rgba(0, 0, 0, 1);
+}
+#imagem-links {
+    height: 18vh;
+    box-shadow: 0vw 0.1vh 1vh rgba(0, 0, 0, 0.8);
+    transition: all 200ms ease-in-out;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+#legenda-form-tables {
+    display: flex;
+    justify-content: center;
+    margin: 2vh auto;
+    width: 40%;
+    padding: 1vh;
+    background-color: rgba(0, 0, 0, 0.2);
+    text-shadow: 0 0 .4vh rgba(0, 0, 0, 0.7);
+    border: solid .1vh rgba(0, 0, 0, .2);
+    box-shadow: .2vw .1vh 1vh rgba(0, 0, 0, 0.7);
+    transition: all 200ms ease-in-out;
+}
+#legenda-form-tables legend {
+    text-shadow: 0vw 0vh 1vh rgba(255, 255, 255, 0.4);
+}
+#legenda-form-tables:hover {
+    box-shadow: .2vw .1vh 2vh rgba(0, 0, 0, 1);
+}
+#imagem-form-tables {
+    height: 18vh;
+    box-shadow: 0vw 0vh 1vh rgba(0, 0, 0, 0.8);
+    transition: all 200ms ease-in-out;
 }
