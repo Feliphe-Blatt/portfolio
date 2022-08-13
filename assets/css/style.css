@@ -97,6 +97,7 @@ body {
     padding: 0 .5vh 0vh .5vw;
     height: 22vw;
     max-height: 280px;
+    opacity: .84;
     background-color: rgba(0, 0, 0, 0.2);
     box-shadow: .2vw .1vh 1vh rgba(0, 0, 0, 0.7);
     border: solid .1vh rgba(0, 0, 0, .2);
@@ -113,10 +114,10 @@ body {
     margin: .5vh 1vw 0 1vw;
 }
 #pdf-icon {
+    opacity: .9;
     width: 10vw;
     max-height: 200px;
     max-width: 150px;
-    opacity: .6;
 }
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 #sites {
