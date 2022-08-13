@@ -79,15 +79,15 @@ body {
     box-shadow: .2vw .1vh 2vh rgba(0, 0, 0, 1);
 }
 #nome-completo {
-    font-size: 2vw;
+    font-size: small;
 }
 #programador {
     margin-top: 1vh;
-    font-size: 1.8vw;
+    font-size: smaller;
 }
 #lista-programador {
     margin: 1vh;
-    font-size: 1.4vw;
+    font-size: x-small;
 }
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 #curriculo {
@@ -107,7 +107,7 @@ body {
     box-shadow: .2vw .1vh 2vh rgba(0, 0, 0, 1);
 }
 #curriculo legend {
-    font-size: 2.5vw;
+    font-size: small;
     text-shadow: 0vw 0vh 1vh rgba(255, 255, 255, 0.4);
 }
 #pdf-link {
