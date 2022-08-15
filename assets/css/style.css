@@ -80,7 +80,7 @@ body {
     margin: 2vw auto;
     padding: 0vh 1vw 1vw 3vw;
     opacity: 0.85;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.2);
     text-shadow: 0 0 .4vh rgba(0, 0, 0, 0.7);
     box-shadow: .2vw .1vh 1vh rgba(0, 0, 0, 0.7);
     border: solid .1vh rgba(0, 0, 0, .2);
@@ -109,7 +109,7 @@ body {
     height: 22vw;
     max-height: 280px;
     opacity: .84;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.2);
     box-shadow: .2vw .1vh 1vh rgba(0, 0, 0, 0.7);
     border: solid .1vh rgba(0, 0, 0, .2);
     transition: all 200ms ease-in-out;
