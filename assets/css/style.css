@@ -14,9 +14,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    scroll-behavior: smooth;
+    scroll-behavior: smooth !important;
 }
-
 body {
     display: flex;
     justify-content: center;
@@ -74,10 +73,17 @@ body {
     left: 40px;
     height: 26px;
     background-image: radial-gradient(rgba(0,0,0,.18)60%, transparent, transparent);
+    transition: all 200ms ease-in-out;
+}
+#pino-icon:hover {
+    height: 46px;
+    left: 30px;
 }
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 #descricao {
-    margin: 2vw auto;
+    height: 60%;
+    border-radius: 1vw;
+    margin: auto;
     padding: 0vh 1vw 1vw 3vw;
     opacity: 0.85;
     background-color: rgba(0, 0, 0, 0.2);
@@ -102,10 +108,11 @@ body {
 }
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 #curriculo {
+    border-radius: 1vw;
     display: flex;
     justify-content: center;
     margin: auto;
-    padding: 0 .5vh 0vh .5vw;
+    padding: 0 1vw 0vh 1vw;
     height: 22vw;
     max-height: 280px;
     opacity: .84;
@@ -137,6 +144,7 @@ body {
 }
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 #legenda-links {
+    border-radius: 1vw;
     display: flex;
     justify-content: center;
     padding: 1vh;
@@ -154,12 +162,14 @@ body {
     box-shadow: .2vw .1vh 2vh rgba(0, 0, 0, 1);
 }
 #imagem-links {
+    border-radius: 10%;
     height: 30vw;
     box-shadow: 0vw 0.1vh 1vh rgba(0, 0, 0, 0.8);
     transition: all 200ms ease-in-out;
 }
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 #legenda-form-tables {
+    border-radius: 1vw;
     display: flex;
     justify-content: center;
     margin: 2vh auto;
@@ -178,6 +188,7 @@ body {
     box-shadow: .2vw .1vh 2vh rgba(0, 0, 0, 1);
 }
 #imagem-form-tables {
+    border-radius: 10%;
     height: 30vw;
     box-shadow: 0vw 0vh 1vh rgba(0, 0, 0, 0.8);
     transition: all 200ms ease-in-out;
