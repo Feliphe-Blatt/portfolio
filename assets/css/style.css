@@ -17,11 +17,29 @@
     scroll-behavior: smooth !important;
 }
 body {
-    display: flex;
+    display: list-item;
     justify-content: center;
     max-width: 100%;
     overflow-x: auto;
     background-color: rgba(0, 0, 0, .8);
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+#menu {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0vh .2vw;
+    margin: 1vh auto;
+    font-family: sans-serif;
+}
+#menu a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, .7);
+    padding: 0px 1vw;
+    font-size: small;
+    text-shadow: .2vh .1vw 1vw rgba(0, 0, 0, .5);
+}
+#menu li {
+    list-style-type: none;
 }
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 #pinboard {
@@ -29,10 +47,10 @@ body {
     align-items: center;
     justify-content: center;
     overflow-x: auto;
-    margin: 2vh 2vw 2vh;
+    margin: 0vh auto .2vh;
     width: 96vw;
     max-width: 1300px;
-    height: 96vh;
+    height: 92vh;
     background-image:
         radial-gradient(transparent, transparent,rgba(0,0,0, .5) 75%),
         url("../img/pinboard.jpg");
@@ -162,7 +180,7 @@ body {
     box-shadow: .2vw .1vh 2vh rgba(0, 0, 0, 1);
 }
 #imagem-links {
-    border-radius: 15vw;
+    border-radius: 7vw;
     height: 30vw;
     box-shadow: .2vw .3vh 2vh 1vh rgba(0, 0, 0, 0.8);
     transition: all 200ms ease-in-out;
@@ -188,7 +206,7 @@ body {
     box-shadow: .2vw .1vh 2vh rgba(0, 0, 0, 1);
 }
 #imagem-form-tables {
-    border-radius: 15vw;
+    border-radius: 7vw;
     height: 30vw;
     box-shadow: .2vw .3vh 2vh 1vh rgba(0, 0, 0, 0.8);
 }
