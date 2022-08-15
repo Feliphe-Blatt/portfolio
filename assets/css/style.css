@@ -35,7 +35,7 @@ body {
     max-width: 1300px;
     height: 96vh;
     background-image:
-        radial-gradient(transparent, transparent,rgba(0,0,0, .4) 75%),
+        radial-gradient(transparent, transparent,rgba(0,0,0, .5) 75%),
         url("../img/pinboard.jpg");
     background-size: cover;
     background-position: left top;
@@ -80,7 +80,7 @@ body {
     margin: 2vw auto;
     padding: 0vh 1vw 1vw 3vw;
     opacity: 0.85;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.3);
     text-shadow: 0 0 .4vh rgba(0, 0, 0, 0.7);
     box-shadow: .2vw .1vh 1vh rgba(0, 0, 0, 0.7);
     border: solid .1vh rgba(0, 0, 0, .2);
