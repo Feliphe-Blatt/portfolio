@@ -162,9 +162,9 @@ body {
     box-shadow: .2vw .1vh 2vh rgba(0, 0, 0, 1);
 }
 #imagem-links {
-    border-radius: 10%;
+    border-radius: 15vw;
     height: 30vw;
-    box-shadow: 0vw 0.1vh 1vh rgba(0, 0, 0, 0.8);
+    box-shadow: .2vw .3vh 2vh 1vh rgba(0, 0, 0, 0.8);
     transition: all 200ms ease-in-out;
 }
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
@@ -188,9 +188,7 @@ body {
     box-shadow: .2vw .1vh 2vh rgba(0, 0, 0, 1);
 }
 #imagem-form-tables {
-    border-radius: 10%;
+    border-radius: 15vw;
     height: 30vw;
-    box-shadow: 0vw 0vh 1vh rgba(0, 0, 0, 0.8);
-    transition: all 200ms ease-in-out;
-    position: ;
+    box-shadow: .2vw .3vh 2vh 1vh rgba(0, 0, 0, 0.8);
 }
