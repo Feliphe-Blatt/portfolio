@@ -1,5 +1,4 @@
 <!doctype html>
-
 <html lang="pt-BR">
     <head>
         <meta charset="utf-8">
@@ -10,64 +9,114 @@
     </head>
 
     <body>
-        <main id="pinboard">
+        <aside id="prancheta" title="Prancheta">
+            <nav id="secoes">
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li>Ex.: <a href="#landing-page">Landing Page</a></li>
+                    <li>Ex.: <a href="#form-table">Formulário e Tabela</a></li>
+                    <li>Ex.: <a href="#redirect-page">Redirect Page</a></li>
+                    <li><a href="#contatos">Contato & Downloads</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main id="quadro">
             <header id="inicio"></header>
 
             <div id="infos">
-
                 <figure id="foto-perfil" title="Feliphe Blatt, Foto 3x4." alt="Foto na proporção 3 por 4 de Feliphe Blatt">
-                    <a href="#bottom">
+                    <a href="#contato">
                         <img id="pino-icon"
                             src="./assets/img/pin.png"
                             title="Pino">
                     </a>
                 </figure>
-                <fieldset id="descricao">
-                    <h1 id="nome-completo">~Feliphe Sousa Blatt~</h1>
-                    <div id="programador"><b>Programador:</b></div>
-                    <ul id="lista-programador">
-                        <li>Arduino/Esp.</li>
-                        <li>C++ ;</li>
-                        <li>Python ;</li>
-                        <li>Html + Css ;</li>
-                        <li>JavaScript (Em Breve) ;</li>
+                <fieldset class="wrapper-descricao">
+                    <h1 class="nome">~Feliphe Sousa Blatt~</h1>
+                    <h2 class="topico">Programador:</h2>
+                    <ul class="detalhes">
+                        <li>Arduino/Esp</li>
+                        <li>C++</li>
+                        <li>Python</li>
+                        <li>Html + Css</li>
+                        <li>JavaScript (Em Breve)</li>
                     </ul>
                 </fieldset>
-                <fieldset id="curriculo">
-                    <legend><b>Currículo:</b></legend>
-                    <a id="pdf-link" target="_blank" href="./assets/downloads/FelipheBlatt-2022.pdf">
-                        <img id="pdf-icon" 
-                            src="./assets/img/pdf.png"
-                            title="Baixar currículo em formato PDF"
-                            alt="Baixar currículo em formato PDF">
-                    </a>
-                </fieldset>
             </div>
-            <div id="sites">
 
-                <fieldset id="legenda-links">
-                    <legend><b>Links e estilos:</b></legend>
-
-                    <a target="_blank" href="https://feliphe-blatt.github.io/links/">
-                        <img src="./assets/img/links.png"
-                        id="imagem-links"
-                        title="Site com exemplos de links e estilos"
-                        alt="Site com exemplos de links e estilos">
+            <div id="landing-page" class="exemplo-site">
+                <figure id="landing-desktop" class="desktop">
+                    <a target="_blank" href="https://feliphe-blatt.github.io/landing-page/">
+                        <img src="./assets/img/notebook.png" class="site" title="Preview Versão Desktop" alt="Preview Versão Desktop do Site">
                     </a>
-                </fieldset>
+                </figure>
+                <figure id="landing-mobile" class="phone">
+                    <a target="_blank" href="https://feliphe-blatt.github.io/landing-page/">
+                        <img src="./assets/img/celular.png" class="site-mobile" title="Preview Versão Mobile" alt="Preview Versão Mobile do Site">
+                    </a>
+                </figure>
+            </div>
 
-                <fieldset id="legenda-form-tables">
-                    <legend><b>Tabelas e formulários:</b></legend>
-
+            <div id="form-table" class="exemplo-site">
+                <figure id="form-desktop" class="desktop">
                     <a target="_blank" href="https://feliphe-blatt.github.io/form-tables/">
-                        <img src="./assets/img/form-tables.png"
-                        id="imagem-form-tables"
-                        title="Site com exemplos de tabela e formulários"
-                        alt="Site com exemplos de tabela e formulários">
+                        <img src="./assets/img/notebook.png" class="site" title="Preview Versão Desktop" alt="Preview Versão Desktop do Site">
                     </a>
-                </fieldset>
+                </figure>
+                <figure id="form-mobile" class="phone">
+                    <a target="_blank" href="https://feliphe-blatt.github.io/form-tables/">
+                        <img src="./assets/img/celular.png" class="site-mobile" title="Preview Versão Mobile" alt="Preview Versão Mobile do Site">
+                    </a>
+                </figure>
             </div>
-            <footer id="bottom"></footer>
+
+            <div id="redirect-page" class="exemplo-site">
+                <figure id="redirect-desktop" class="desktop">
+                    <a target="_blank" href="https://feliphe-blatt.github.io/links/">
+                        <img src="./assets/img/notebook.png" class="site" title="Preview Versão Desktop" alt="Preview Versão Desktop do Site">
+                    </a>
+                </figure>
+                <figure id="redirect-mobile" class="phone">
+                    <a target="_blank" href="https://feliphe-blatt.github.io/links/">
+                        <img src="./assets/img/celular.png" class="site-mobile" title="Preview Versão Mobile" alt="Preview Versão Mobile do Site">
+                    </a>
+                </figure>
+            </div>
+
+            <footer id="contatos">
+                <fieldset id="wrapper-principal">
+                    <legend><b>Contato & Download:</b></legend>
+
+                    <fieldset class="wrapper-contato">
+                        <legend><b>GitHub</b></legend>
+                        <a id="pdf-link" target="_blank" href="https://github.com/Feliphe-Blatt">
+                            <img class="icon"
+                                src="./assets/img/logotipo-do-github.png"
+                                title="Perfil no site GitHub"
+                                alt="Perfil no site GitHub">
+                        </a>
+                    </fieldset>
+                    <fieldset class="wrapper-contato">
+                        <legend><b>Whatsapp</b></legend>
+                        <a id="pdf-link" target="_blank" href="https://api.whatsapp.com/send?phone=5583981858594&text=Oi%20Feliphe%2C%20vim%20pelo%20seu%20Portfolio!">
+                            <img class="icon"
+                                src="./assets/img/logo-whatsapp.png"
+                                title="Entrar em contato via WhatsApp"
+                                alt="Entrar em contato via WhatsApp">
+                        </a>
+                    </fieldset>
+                    <fieldset class="wrapper-contato">
+                        <legend><b>Currículo</b></legend>
+                        <a id="pdf-link" target="_blank" href="./assets/downloads/FelipheBlatt-2022.pdf">
+                            <img class="icon"
+                                src="./assets/img/pdf.png"
+                                title="Baixar currículo em formato PDF"
+                                alt="Baixar currículo em formato PDF">
+                        </a>
+                    </fieldset>
+                </fieldset>
+            </footer>
         </main>
     </body>
 </html>
