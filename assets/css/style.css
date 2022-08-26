@@ -145,7 +145,6 @@ body {
     padding: 1vh 1vw;
     opacity: 0.85;
     background-color: rgba(0, 0, 0, 0.2);
-    text-shadow: 0 0 .4vh rgba(0, 0, 0, 0.3);
     box-shadow: .2vw .1vh 1vh rgba(0, 0, 0, 0.7);
     border: solid .1vh rgba(0, 0, 0, .2);
     transition: all 200ms ease-in-out;
@@ -156,21 +155,30 @@ body {
 .nome {
     font-size: x-large;
     font-weight: bolder;
+    text-shadow: 0 0 .4vw rgba(0, 0, 0, 0.3);
 }
 .topico {
     font-size: x-large;
     font-weight: bolder;
+    text-shadow: 0 0 .4vw rgba(0, 0, 0, 0.3);
 }
 .detalhes {
     font-size: large;
     font-weight: normal;
+    text-shadow: 0 0 .4vw rgba(0, 0, 0, 0.5);
 }
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.secao-site {
+    font-weight: lighter;
+    padding-top: 1vh;
+    filter: drop-shadow(0vw 0vh .3vw rgba(0, 0, 0, .6));
+}
 .exemplo-site {
     display: flex;
+    flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    margin: 2vh 0;
+    margin: 1vh 0;
 }
 .desktop {
     display: flex;
@@ -247,7 +255,7 @@ body {
     border: solid .1vh rgba(0, 0, 0, .2);
     font-weight: bold;
     font-size: xx-large;
-    text-shadow: 0vw 0vh 1vh rgba(255, 255, 255, 0.3);
+    text-shadow: 0 0 .4vw rgba(0, 0, 0, 0.5);
     transition: all 200ms ease-in-out;
 }
 #wrapper-principal:hover {
@@ -262,6 +270,7 @@ body {
     opacity: .9;
     font-weight: bolder;
     font-size: x-large;
+    text-shadow: 0 0 .4vw rgba(0, 0, 0, 0.5);
     background-color: rgba(0, 0, 0, 0.2);
     box-shadow: .2vw .1vh 1vh rgba(0, 0, 0, 0.7);
     border: solid .1vh rgba(0, 0, 0, .2);
