@@ -50,7 +50,6 @@ body {
 }
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 #prancheta {
-    opacity: .8;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -90,12 +89,12 @@ body {
     font-size: medium;
 }
 #secoes a:link {
-    color: rgb(80, 0, 0);
+    color: rgb(100, 0, 0);
     filter: drop-shadow(0vw 0vh .6vw rgba(0, 0, 0, 1));
     transition: all 200ms ease-in-out;
 }
 #secoes a:visited {
-    color: rgb(60, 0, 0);
+    color: rgb(80, 0, 0);
     text-shadow: .2vh .2vh 1vh rgb(0, 0, 0);
 }
 #secoes a:hover {
