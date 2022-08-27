@@ -55,9 +55,11 @@ body {
     align-items: center;
     position: relative;
     margin: auto 2vw;
-    height: 30vw;
+    height: 28vw;
+    max-height: 380px;
     width: 26vw;
-    border-radius: 6px;
+    max-width: 350px;
+    border-radius: 6%;
     background-image: url("../img/prancheta.png");
     background-size: cover;
     background-position: top center;
@@ -73,33 +75,46 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    top: 3vw;
-    left: 3vw;
 }
 #secoes li {
-    list-style: circle;
+    list-style: none;
     font-family: sans-serif;
-    font-weight: bold;
-    font-size: large;
-    padding: 5% 0vw;
+    font-weight: bolder;
+    font-size: x-large;
+    margin: 5% 0vw;
+    position: relative;
+    padding-left: .5vw;
+    width: fit-content;
 }
 #secoes a {
     text-decoration: none;
-    font-size: medium;
+    font-size: large;
+    font-weight: bold;
+    transition: all 200ms ease-in-out;
+    color: rgb(50, 0, 0);
+    text-shadow: 0 0 .5vw rgba(0, 0, 0, .5);
+}
+#secoes a::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 90%;
+    width: .2vw;
+    background:rgb(40, 0, 0);
+}
+#secoes a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: .2vh;
+    background:rgb(40, 0, 0);
     transition: all 200ms ease-in-out;
 }
-#secoes a:link {
-    color: rgb(80, 0, 0);
-    text-shadow: 0 0 1vw rgba(0, 0, 0, 0.7);
-}
-#secoes a:visited {
-    color: rgb(80, 0, 0);
-    text-shadow: 0 0 1vw rgba(0, 0, 0, 0.7);
-}
-#secoes a:hover {
-    color: rgb(90, 90, 90);
-    text-shadow: 0 0 1vw rgba(0, 0, 0, 0.7);
+#secoes a:hover::after {
+    width: 100%;
 }
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 #infos {
@@ -299,10 +314,6 @@ body {
         height: 48vw;
         width: 50vw;
     }
-    #secoes {
-        top: 7vw;
-        left: 5vw;
-    }
     #secoes li {
         font-size: 2vw;
         padding: 4% 0vw;
@@ -320,10 +331,6 @@ body {
         margin: 2vw;
         height: 30vw;
         width: 26vw;
-    }
-    #secoes {
-        top: 6vw;
-        left: 4vw;
     }
     #secoes li {
         font-size: 1.6vw;
