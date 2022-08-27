@@ -1,0 +1,53 @@
+.secao-site {
+    padding-top: 1vh;
+    filter: drop-shadow(0vw 0vh .3vw rgba(0, 0, 0, .6));
+}
+.exemplo-site {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 1vh 0;
+}
+.desktop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: 19vw;
+    background-repeat: no-repeat;
+    background-position: 50% 11%;
+    filter: drop-shadow(0vw 0vh .5vw rgba(0, 0, 0, .8));
+}
+.site {
+    height: 16vw;
+    width: 24vw;
+    border-radius: 10%;
+    filter: drop-shadow(0vw 0vh .5vw rgba(0, 0, 0, .8));
+    transition: all 200ms ease-in-out;
+}
+.site:hover {
+    cursor: pointer;
+    filter: drop-shadow(0vw 0vh 1vw rgba(0, 0, 0, 1));
+}
+.phone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: 11vw;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    border-radius: 16%;
+    filter: drop-shadow(0vw 0vh .5vw rgba(0, 0, 0, .8));
+}
+.site-mobile {
+    height: 24.3vw;
+    width: 12.1vw;
+    max-width: 360px;
+    border-radius: 12%;
+    filter: drop-shadow(0vw 0vh .5vw rgba(0, 0, 0, .8));
+    transition: all 200ms ease-in-out;
+}
+.site-mobile:hover {
+    cursor: pointer;
+    filter: drop-shadow(0vw 0vh 1vw rgba(0, 0, 0, 1));
+}

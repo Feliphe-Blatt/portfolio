@@ -1,0 +1,18 @@
+#landing-mobile {
+    background-image: url("../img/portfolio-mobile.png");
+}
+#landing-desktop {
+    background-image: url("../img/portfolio-desktop.png");
+}
+#redirect-mobile {
+    background-image: url("../img/link-mobile.png");
+}
+#redirect-desktop {
+    background-image: url("../img/link-desktop.png");
+}
+#form-mobile {
+    background-image: url("../img/form-mobile.png");
+}
+#form-desktop {
+    background-image: url("../img/form-desktop.png");
+}
