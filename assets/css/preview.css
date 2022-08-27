@@ -1,6 +1,6 @@
 .secao-site {
     padding-top: 1vh;
-    filter: drop-shadow(0vw 0vh .3vw rgba(0, 0, 0, .6));
+    filter: drop-shadow(0vw 0vh .9vw rgba(0, 0, 0, .6));
 }
 .exemplo-site {
     display: flex;
