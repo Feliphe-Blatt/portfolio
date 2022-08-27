@@ -4,7 +4,7 @@
     }
     #quadro {
         width: 97vw;
-        height: 66vh;
+        height: 60vh;
     }
     #prancheta {
         margin: 2vh;
@@ -21,7 +21,7 @@
         flex-direction: row;
     }
     #quadro {
-        width: 66vw;
+        width: 60vw;
         height: 96vh;
     }
     #prancheta {

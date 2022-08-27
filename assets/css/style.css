@@ -56,9 +56,7 @@ body {
     position: relative;
     margin: auto 2vw;
     height: 28vw;
-    max-height: 380px;
     width: 26vw;
-    max-width: 350px;
     border-radius: 6%;
     background-image: url("../img/prancheta.png");
     background-size: cover;
