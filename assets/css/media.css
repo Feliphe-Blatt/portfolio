@@ -8,25 +8,26 @@
     }
     #prancheta {
         margin: 2vh;
-        height: 48vw;
+        height: 56vw;
         width: 50vw;
     }
     #secoes li {
         font-size: 2vw;
-        padding: 4% 0vw;
+        padding: 3% 0vw;
     }
 }
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 @media (max-height: 720px) and (max-width: 800px){
     body {
         flex-direction: row;
     }
     #quadro {
-        width: 60vw;
+        width: 66vw;
         height: 96vh;
     }
     #prancheta {
         margin: 2vw;
-        height: 30vw;
+        height: 36vw;
         width: 26vw;
     }
     #secoes li {
@@ -37,6 +38,7 @@
         margin: 2vh auto;
     }
 }
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 @media (min-width: 720px){
     #foto-perfil {
         height: 133.33px;
@@ -49,16 +51,5 @@
     #pino-icon:hover {
         height: 40px;
         left: 30px;
-    }
-}
-@media (max-height: 720px) and (max-width: 470px) {
-    #infos {
-        display: list-item;
-    }
-    #foto-perfil {
-        margin: 26px auto;
-    }
-    .wrapper-descricao {
-        margin: 2vh auto;
     }
 }
