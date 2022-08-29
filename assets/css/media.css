@@ -1,4 +1,4 @@
-@media (max-width: 800px){
+@media (max-width: 760px){
     body {
         flex-direction: column-reverse;
     }
@@ -16,8 +16,26 @@
         padding: 1% 0vw;
     }
 }
+@media (max-height: 480px){
+    body {
+        flex-direction: row;
+    }
+    #quadro {
+        width: 60vw;
+        height: 97vh;
+    }
+    #prancheta {
+        margin: 2vh;
+        height: 56vw;
+        width: 50vw;
+    }
+    #secoes li {
+        font-size: 2vw;
+        padding: 1% 0vw;
+    }
+}
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-@media (min-width: 720px) {
+@media (min-width: 721px) {
     #foto-perfil {
         height: 133.33px;
         width: 100px;
