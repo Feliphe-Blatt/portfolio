@@ -56,7 +56,9 @@ body {
     position: relative;
     margin: auto 2vw;
     height: 28vw;
+    max-height: 290px;
     width: 26vw;
+    max-width: 270px;
     border-radius: 6%;
     background-image: url("../img/prancheta.png");
     background-size: cover;
@@ -78,8 +80,8 @@ body {
     list-style: none;
     font-family: sans-serif;
     font-weight: bolder;
-    font-size: x-large;
-    margin: 5% 0vw;
+    font-size: small;
+    margin: 3% 0vw;
     position: relative;
     padding-left: .5vw;
     width: fit-content;

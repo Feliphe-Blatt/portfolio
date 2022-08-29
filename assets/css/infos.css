@@ -36,8 +36,8 @@
     align-items: center;
     height: 60%;
     border-radius: 1vw;
-    margin: 2vh 0vw;
-    padding: 1vh 1vw;
+    margin: 2vh auto;
+    padding: 1vh .5vw;
     opacity: 0.85;
     background-color: rgba(0, 0, 0, 0.2);
     box-shadow: .2vw .1vh 1vh rgba(0, 0, 0, 0.7);

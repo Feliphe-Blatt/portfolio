@@ -13,11 +13,11 @@
     }
     #secoes li {
         font-size: 2vw;
-        padding: 3% 0vw;
+        padding: 1% 0vw;
     }
 }
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-@media (min-width: 720px){
+@media (min-width: 720px) {
     #foto-perfil {
         height: 133.33px;
         width: 100px;
@@ -31,3 +31,19 @@
         left: 30px;
     }
 }
+@media (max-width: 460px) {
+    #foto-perfil {
+        height: 100px;
+        width: 75px;
+        margin-right: 1vh;
+    }
+    #pino-icon {
+        left: 30px;
+        height: 26px;
+    }
+    #pino-icon:hover {
+        height: 40px;
+        left: 20px;
+    }
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
