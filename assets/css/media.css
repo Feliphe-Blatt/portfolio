@@ -12,8 +12,11 @@
         width: 50vw;
     }
     #secoes li {
-        font-size: 2vw;
+        font-size: 16px;
         padding: 1% 0vw;
+    }
+    #secoes li a {
+        font-size: 14px;
     }
 }
 @media (max-height: 480px){
@@ -26,12 +29,15 @@
     }
     #prancheta {
         margin: 2vh;
-        height: 56vw;
-        width: 50vw;
+        height: 50vw;
+        width: 40vw;
     }
     #secoes li {
-        font-size: 2vw;
+        font-size: 16px;
         padding: 1% 0vw;
+    }
+    #secoes li a {
+        font-size: 16px;
     }
 }
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
