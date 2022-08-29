@@ -4,7 +4,7 @@
     }
     #quadro {
         width: 97vw;
-        height: 60vh;
+        height: 50vh;
     }
     #prancheta {
         margin: 2vh;
@@ -14,28 +14,6 @@
     #secoes li {
         font-size: 2vw;
         padding: 3% 0vw;
-    }
-}
-/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-@media (max-height: 720px) and (max-width: 800px){
-    body {
-        flex-direction: row;
-    }
-    #quadro {
-        width: 66vw;
-        height: 96vh;
-    }
-    #prancheta {
-        margin: 2vw;
-        height: 36vw;
-        width: 26vw;
-    }
-    #secoes li {
-        font-size: 1.6vw;
-        padding: 5% 0vw;
-    }
-    .wrapper-descricao {
-        margin: 2vh auto;
     }
 }
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
