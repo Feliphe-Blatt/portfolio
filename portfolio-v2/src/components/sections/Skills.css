@@ -1,0 +1,106 @@
+.skills {
+  padding: var(--space-3xl) 0;
+  background-color: var(--bg-primary);
+}
+
+.skills-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 var(--space-lg);
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: var(--space-xl);
+  margin-top: var(--space-2xl);
+}
+
+.skill-category {
+  background-color: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-xl);
+  transition: all var(--transition-base);
+}
+
+.skill-category:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+  border-color: var(--accent-primary);
+}
+
+.category-header {
+  margin-bottom: var(--space-lg);
+  padding-bottom: var(--space-md);
+  border-bottom: 2px solid var(--accent-primary);
+}
+
+.category-header h3 {
+  font-size: var(--text-2xl);
+  color: var(--text-primary);
+  font-weight: 700;
+}
+
+.skill-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.skill-item {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  padding: var(--space-sm) var(--space-md);
+  background-color: var(--bg-primary);
+  border-radius: var(--radius-md);
+  transition: all var(--transition-fast);
+  cursor: default;
+}
+
+.skill-item:hover {
+  background-color: var(--accent-primary);
+  transform: translateX(8px);
+}
+
+.skill-item:hover .skill-name {
+  color: var(--bg-primary);
+  font-weight: 600;
+}
+
+.skill-icon {
+  font-size: var(--text-xl);
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.skill-name {
+  font-size: var(--text-base);
+  color: var(--text-primary);
+  transition: all var(--transition-fast);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .skills {
+    padding: var(--space-2xl) 0;
+  }
+
+  .skills-grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-lg);
+  }
+
+  .skill-category {
+    padding: var(--space-lg);
+  }
+
+  .category-header h3 {
+    font-size: var(--text-xl);
+  }
+}
