@@ -150,27 +150,13 @@
   bottom: var(--space-xl);
   left: 50%;
   transform: translateX(-50%);
+  color: var(--accent-primary);
+  opacity: 0.6;
   animation: bounce 2s infinite;
 }
 
-.mouse {
-  width: 26px;
-  height: 40px;
-  border: 2px solid var(--accent-primary);
-  border-radius: 20px;
-  position: relative;
-}
-
-.wheel {
-  width: 4px;
-  height: 8px;
-  background-color: var(--accent-primary);
-  border-radius: 2px;
-  position: absolute;
-  top: 8px;
-  left: 50%;
-  transform: translateX(-50%);
-  animation: scroll 2s infinite;
+.scroll-indicator:hover {
+  opacity: 1;
 }
 
 @keyframes bounce {
@@ -182,17 +168,6 @@
   }
   60% {
     transform: translateX(-50%) translateY(-5px);
-  }
-}
-
-@keyframes scroll {
-  0% {
-    opacity: 1;
-    top: 8px;
-  }
-  100% {
-    opacity: 0;
-    top: 24px;
   }
 }
 

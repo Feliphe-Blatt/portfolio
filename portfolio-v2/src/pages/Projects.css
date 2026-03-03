@@ -1,5 +1,4 @@
-.projects-page {
-  min-height: calc(100vh - 65px);
+.projects-section {
   padding: var(--space-3xl) 0;
 }
 
