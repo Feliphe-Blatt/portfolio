@@ -18,7 +18,7 @@ const Navbar = () => {
   useEffect(() => {
     if (pathname !== '/') return
 
-    const sectionIds = ['home', 'about', 'skills', 'projects']
+    const sectionIds = ['home', 'projects', 'about', 'skills']
     const observers: IntersectionObserver[] = []
 
     sectionIds.forEach(id => {
@@ -36,7 +36,7 @@ const Navbar = () => {
   }, [pathname])
 
   const isHome = pathname === '/'
-  const isAtHome = isHome && (activeSection === 'home')
+  const isAtHome = isHome && activeSection === 'home'
   const isProjectsActive = isHome && activeSection === 'projects'
   const isSkillsActive = isHome && activeSection === 'skills'
   const isAboutActive = isHome && activeSection === 'about'
@@ -52,7 +52,7 @@ const Navbar = () => {
 
         {/* Desktop Navigation */}
         <nav className="navbar-nav desktop-nav">
-          <Link to="/" className={`nav-link ${isAtHome ? 'active' : ''}`}>{t('nav.home')}</Link>
+          <Link to="/#home" className={`nav-link ${isAtHome ? 'active' : ''}`}>{t('nav.home')}</Link>
           <Link to="/#projects" className={`nav-link ${isProjectsActive ? 'active' : ''}`}>{t('nav.projects')}</Link>
           <Link to="/#about" className={`nav-link ${isAboutActive ? 'active' : ''}`}>{t('nav.about')}</Link>
           <Link to="/#skills" className={`nav-link ${isSkillsActive ? 'active' : ''}`}>{t('nav.skills')}</Link>
@@ -80,7 +80,7 @@ const Navbar = () => {
       {/* Mobile Menu */}
       <div className={`mobile-menu ${isOpen ? 'active' : ''}`}>
         <nav className="mobile-nav">
-          <Link to="/" className={`nav-link ${isAtHome ? 'active' : ''}`} onClick={closeMenu}>
+          <Link to="/#home" className={`nav-link ${isAtHome ? 'active' : ''}`} onClick={closeMenu}>
             {t('nav.home')}
           </Link>
           <Link to="/#projects" className={`nav-link ${isProjectsActive ? 'active' : ''}`} onClick={closeMenu}>
