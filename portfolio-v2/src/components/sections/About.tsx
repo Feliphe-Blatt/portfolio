@@ -31,7 +31,7 @@ const About = () => {
             </p>
 
             <p className="about-enjoy">
-              <strong className="accent">Não vivo sem música 🎵 e café ☕</strong>
+              <strong className="accent">{t('about.enjoy')}</strong>
             </p>
 
             <div className="about-links">

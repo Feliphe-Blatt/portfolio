@@ -1,7 +1,10 @@
+import { useIntl } from 'react-intl'
 import './Footer.css'
 
 const Footer = () => {
   const currentYear = new Date().getFullYear()
+  const { formatMessage } = useIntl()
+  const t = (id: string) => formatMessage({ id })
 
   return (
     <footer className="footer">
@@ -40,7 +43,7 @@ const Footer = () => {
             © {currentYear} <span className="accent">Feliphe Blatt</span>
           </p>
           <p className="footer-note">
-            Feito com Agentes do copilot 🕵️
+            {t('footer.madeWithCopilotAgents')}
           </p>
         </div>
       </div>

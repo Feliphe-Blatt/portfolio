@@ -25,6 +25,7 @@ Migrar o portfolio para TypeScript, estabelecer base de testes automatizados, va
 | TASK-04 | Git Workflow + Commit Sprint 01 | B2E | 1 | 🟡 Media | `backlog` |
 | TASK-05 | Deploy Staging (Vercel) | B2E | 2 | 🟢 Baixa | `backlog` |
 | TASK-06 | Live Regions + WCAG Level AA | B2E | 2 | 🟢 Baixa | `backlog` |
+| TASK-07 | Projetos: Modal Mobile/Desktop + i18n + A11y + Performance | B2E | 3 | 🔥 Alta | `em-andamento` |
 
 ---
 
@@ -45,7 +46,7 @@ Migrar o portfolio para TypeScript, estabelecer base de testes automatizados, va
 
 | ID | Sugestao | Registrado em | Origem |
 |----|----------|---------------|--------|
-| — | — | — | — |
+| TASK-07 | Melhorias na secao de projetos (modal, i18n, a11y, performance) | 12/03/2026 | solicitacao direta do usuario |
 
 ---
 
